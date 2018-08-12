@@ -1,0 +1,164 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.43</VERSION>
+ <DEVICE>ATmega32</DEVICE>
+ <WORKING_DIR>E:\Programming\AVR SIMPLE OS\src\AVROS\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\AVROS.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include\m32def.inc</FILE>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\process.inc</FILE>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\adc.inc</FILE>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\clock.inc</FILE>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\serial.inc</FILE>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\pwm.inc</FILE>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\app1.asm</FILE>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\app2.asm</FILE>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\app3.asm</FILE>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\app4.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\Debug/AVROS.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\Debug/AVROS.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\Debug/AVROS.map</FILE>
+  <FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\Debug/AVROS.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\AVROS.asm</FILE><LINE>37</LINE></start>
+  <SwitchContext><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\process.inc</FILE><LINE>44</LINE></SwitchContext>
+  <Timer1_OVF><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\clock.inc</FILE><LINE>7</LINE></Timer1_OVF>
+  <strcmp><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>39</LINE></strcmp>
+  <NOTES><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>58</LINE></NOTES>
+  <SAMES><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>61</LINE></SAMES>
+  <itoa><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>67</LINE></itoa>
+  <startti><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>70</LINE></startti>
+  <DIVN><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>73</LINE></DIVN>
+  <LBL><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>77</LINE></LBL>
+  <NOLT><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>80</LINE></NOLT>
+  <ENDD><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>88</LINE></ENDD>
+  <NOTOV><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>85</LINE></NOTOV>
+  <DEC10><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>110</LINE></DEC10>
+  <ENDTT><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>97</LINE></ENDTT>
+  <ENDCONVERT><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>105</LINE></ENDCONVERT>
+  <SDEC><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>112</LINE></SDEC>
+  <DECC><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>118</LINE></DECC>
+  <Wait_Unlock><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>124</LINE></Wait_Unlock>
+  <SetLock><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>131</LINE></SetLock>
+  <SetUnlock><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\stdlib.inc</FILE><LINE>138</LINE></SetUnlock>
+  <SaveABCDY><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\process.inc</FILE><LINE>215</LINE></SaveABCDY>
+  <NextPID><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\process.inc</FILE><LINE>51</LINE></NextPID>
+  <VALIDPID><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\process.inc</FILE><LINE>69</LINE></VALIDPID>
+  <LoadABCDY><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\process.inc</FILE><LINE>185</LINE></LoadABCDY>
+  <POF><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\process.inc</FILE><LINE>80</LINE></POF>
+  <KillProc><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\process.inc</FILE><LINE>90</LINE></KillProc>
+  <NPID><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\process.inc</FILE><LINE>97</LINE></NPID>
+  <TF><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\process.inc</FILE><LINE>105</LINE></TF>
+  <INVPID><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\process.inc</FILE><LINE>118</LINE></INVPID>
+  <InitProc><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\process.inc</FILE><LINE>128</LINE></InitProc>
+  <QueueFull><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\process.inc</FILE><LINE>180</LINE></QueueFull>
+  <NPIDS><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\process.inc</FILE><LINE>138</LINE></NPIDS>
+  <FPID><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\process.inc</FILE><LINE>146</LINE></FPID>
+  <LCD_PUTF><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>43</LINE></LCD_PUTF>
+  <LCD_NCF><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>49</LINE></LCD_NCF>
+  <END_PLF><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>67</LINE></END_PLF>
+  <NOT_NLF><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>58</LINE></NOT_NLF>
+  <LCD_L2><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>231</LINE></LCD_L2>
+  <IS_NLF><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>65</LINE></IS_NLF>
+  <IS_NL0F><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>63</LINE></IS_NL0F>
+  <LCD_PUTC><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>271</LINE></LCD_PUTC>
+  <LCD_PUTS><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>74</LINE></LCD_PUTS>
+  <LCD_NCS><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>78</LINE></LCD_NCS>
+  <END_PLS><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>85</LINE></END_PLS>
+  <LCD_INIT><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>90</LINE></LCD_INIT>
+  <loop1><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\app1.asm</FILE><LINE>13</LINE></loop1>
+  <loop2><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\app2.asm</FILE><LINE>12</LINE></loop2>
+  <LCD_SEND_COMMAND><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>150</LINE></LCD_SEND_COMMAND>
+  <LCD_SEND_DATA><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>117</LINE></LCD_SEND_DATA>
+  <LCD_READ><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>177</LINE></LCD_READ>
+  <LCD_WAIT><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>205</LINE></LCD_WAIT>
+  <LCD_WAITAA><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>207</LINE></LCD_WAITAA>
+  <LCD_HOME><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>215</LINE></LCD_HOME>
+  <LCD_CLS><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>223</LINE></LCD_CLS>
+  <LCD_CSL><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>239</LINE></LCD_CSL>
+  <LCD_CSR><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>247</LINE></LCD_CSR>
+  <LCD_TSR><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>255</LINE></LCD_TSR>
+  <LCD_TSL><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\lcd.inc</FILE><LINE>263</LINE></LCD_TSL>
+  <GetADC><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\adc.inc</FILE><LINE>7</LINE></GetADC>
+  <InitADC><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\adc.inc</FILE><LINE>14</LINE></InitADC>
+  <SNOF><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\clock.inc</FILE><LINE>51</LINE></SNOF>
+  <MNOF><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\clock.inc</FILE><LINE>42</LINE></MNOF>
+  <HNOF><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\clock.inc</FILE><LINE>32</LINE></HNOF>
+  <USART_Init><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\serial.inc</FILE><LINE>8</LINE></USART_Init>
+  <USART_Recive><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\serial.inc</FILE><LINE>20</LINE></USART_Recive>
+  <USART_Send><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\serial.inc</FILE><LINE>27</LINE></USART_Send>
+  <USART_Scan><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\serial.inc</FILE><LINE>34</LINE></USART_Scan>
+  <EndScan><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\serial.inc</FILE><LINE>41</LINE></EndScan>
+  <USART_Print><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\serial.inc</FILE><LINE>46</LINE></USART_Print>
+  <EndPrint><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\serial.inc</FILE><LINE>52</LINE></EndPrint>
+  <USART_Printf><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\serial.inc</FILE><LINE>55</LINE></USART_Printf>
+  <EndPrintf><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\serial.inc</FILE><LINE>61</LINE></EndPrintf>
+  <SKernel><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>7</LINE></SKernel>
+  <Kernel><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>14</LINE></Kernel>
+  <C2><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>44</LINE></C2>
+  <PrintResultLayout><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>363</LINE></PrintResultLayout>
+  <NC3><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>48</LINE></NC3>
+  <C3><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>145</LINE></C3>
+  <RT1><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>68</LINE></RT1>
+  <RT2><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>87</LINE></RT2>
+  <RT3><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>106</LINE></RT3>
+  <NRT4><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>64</LINE></NRT4>
+  <RT4><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>125</LINE></RT4>
+  <Error><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>390</LINE></Error>
+  <CRT1><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>75</LINE></CRT1>
+  <app1><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\app1.asm</FILE><LINE>7</LINE></app1>
+  <Done><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>377</LINE></Done>
+  <CRT2><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>94</LINE></CRT2>
+  <app2><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\app2.asm</FILE><LINE>8</LINE></app2>
+  <CRT3><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>113</LINE></CRT3>
+  <app3><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\app3.asm</FILE><LINE>8</LINE></app3>
+  <CRT4><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>132</LINE></CRT4>
+  <app4><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\app4.asm</FILE><LINE>8</LINE></app4>
+  <NC4><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>149</LINE></NC4>
+  <C4><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>222</LINE></C4>
+  <KT1><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>165</LINE></KT1>
+  <KT2><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>179</LINE></KT2>
+  <KT3><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>193</LINE></KT3>
+  <KT4><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>207</LINE></KT4>
+  <CKT1><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>171</LINE></CKT1>
+  <CKT2><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>185</LINE></CKT2>
+  <CKT3><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>199</LINE></CKT3>
+  <CKT4><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>213</LINE></CKT4>
+  <C5><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>237</LINE></C5>
+  <C6><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>252</LINE></C6>
+  <C7><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>267</LINE></C7>
+  <C8><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>282</LINE></C8>
+  <C9><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>319</LINE></C9>
+  <OAO><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>297</LINE></OAO>
+  <OBO><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>308</LINE></OBO>
+  <C10><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>356</LINE></C10>
+  <OAI><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>334</LINE></OAI>
+  <OBI><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\kernel.asm</FILE><LINE>345</LINE></OBI>
+  <pwminit><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\pwm.inc</FILE><LINE>9</LINE></pwminit>
+  <pwmset><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\pwm.inc</FILE><LINE>15</LINE></pwmset>
+  <KEY_DOWN><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\app2.asm</FILE><LINE>15</LINE></KEY_DOWN>
+  <Wait1s><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\app3.asm</FILE><LINE>10</LINE></Wait1s>
+  <DIV2><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\app3.asm</FILE><LINE>50</LINE></DIV2>
+  <KEYUP><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\app4.asm</FILE><LINE>13</LINE></KEYUP>
+  <KEYDOWN><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\app4.asm</FILE><LINE>16</LINE></KEYDOWN>
+  <TEXT1><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\AVROS.asm</FILE><LINE>33</LINE></TEXT1>
+  <START_MSG><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\AVROS.asm</FILE><LINE>35</LINE></START_MSG>
+  <heree><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\AVROS.asm</FILE><LINE>45</LINE></heree>
+  <CLEARING><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\AVROS.asm</FILE><LINE>74</LINE></CLEARING>
+  <END_CLEARING><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\AVROS.asm</FILE><LINE>80</LINE></END_CLEARING>
+  <COPY_MSG><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\AVROS.asm</FILE><LINE>87</LINE></COPY_MSG>
+  <ENDCM><FILE>E:\Programming\AVR SIMPLE OS\src\AVROS\AVROS.asm</FILE><LINE>96</LINE></ENDCM>
+ </LABELS>
+</ASSEMBLER_INFO>

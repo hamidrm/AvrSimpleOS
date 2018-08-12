@@ -1,0 +1,53 @@
+/*
+ * app3.asm
+ *  
+ *  Created: 5/22/2013 7:44:55 AM
+ *   Author: Hamid
+ */ 
+  .equ	TEMP = RAMSA + 6
+  app3:
+		LDI		F,0
+Wait1s:	
+	LDS		A,Second
+	CP		A,F
+	BREQ	Wait1s
+	MOV		F,A
+	LDI		A,ADC_LOCK
+	CALL	SetLock
+	LDI		A,0
+	CALL	InitADC
+	CALL	GetADC
+	LDI		A,ADC_LOCK
+	CALL	SetUnlock
+    IN		A,ADCL
+	IN		B,ADCH
+	CALL	DIV2
+	CALL	DIV2
+	LDI		XL,LOW(TEMP)
+	LDI		XH,HIGH(TEMP)
+	CALL	itoa
+	LDI		A,LCD_LOCK
+	CALL	Setlock
+	CALL	LCD_CLS
+	LDI		A,'T'
+	CALL	LCD_PUTC
+	LDI		A,'E'
+	CALL	LCD_PUTC
+	LDI		A,'M'
+	CALL	LCD_PUTC
+	LDI		A,'P'
+	CALL	LCD_PUTC
+	LDI		A,':'
+	CALL	LCD_PUTC
+	LDI		XL,LOW(TEMP)
+	LDI		XH,HIGH(TEMP)
+	CALL	LCD_PUTS
+	LDI		A,LCD_LOCK
+	CALL	SetUnlock
+rjmp Wait1s
+
+
+DIV2:
+	LSR		B
+	ROR		A
+RET

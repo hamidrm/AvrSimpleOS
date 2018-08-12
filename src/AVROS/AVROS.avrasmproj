@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>1.1</ProjectVersion>
+    <ProjectGuid>{550e858a-585d-4e1c-8c63-a0ccaf5a0a75}</ProjectGuid>
+    <avrdeviceseries>none</avrdeviceseries>
+    <avrdevice>ATmega32</avrdevice>
+    <OutputFile>$(MSBuildProjectName).obj</OutputFile>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <AssemblyName>AVROS</AssemblyName>
+    <Name>AVROS</Name>
+    <RootNamespace>AVROS</RootNamespace>
+    <EntryFile>$(MSBuildProjectDirectory)\AVROS.asm</EntryFile>
+    <avrtool>com.atmel.avrdbg.tool.simulator</avrtool>
+    <com_atmel_avrdbg_tool_simulator>
+      <ToolType xmlns="">com.atmel.avrdbg.tool.simulator</ToolType>
+      <ToolName xmlns="">AVR Simulator</ToolName>
+      <ToolNumber xmlns="">
+      </ToolNumber>
+      <Channel xmlns="">
+        <host>127.0.0.1</host>
+        <port>22266</port>
+        <ssl>False</ssl>
+      </Channel>
+    </com_atmel_avrdbg_tool_simulator>
+    <avrtoolinterface />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <ToolchainSettings>
+      <AvrAssembler>
+        <avrasm.assembler.general.IncludeFile>m32def.inc</avrasm.assembler.general.IncludeFile>
+      </AvrAssembler>
+    </ToolchainSettings>
+    <GenerateHexFile>True</GenerateHexFile>
+    <GenerateMapFile>True</GenerateMapFile>
+    <GenerateListFile>True</GenerateListFile>
+    <GenerateEepFile>False</GenerateEepFile>
+    <OutputType>Executable</OutputType>
+    <UsesExternalMakeFile>False</UsesExternalMakeFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <ToolchainSettings>
+      <AvrAssembler>
+  <avrasm.assembler.general.IncludeFile>m32def.inc</avrasm.assembler.general.IncludeFile>
+</AvrAssembler>
+    </ToolchainSettings>
+    <GenerateHexFile>True</GenerateHexFile>
+    <GenerateMapFile>True</GenerateMapFile>
+    <GenerateListFile>True</GenerateListFile>
+    <GenerateEepFile>True</GenerateEepFile>
+    <OutputType>Executable</OutputType>
+    <UsesExternalMakeFile>False</UsesExternalMakeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="adc.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app1.asm">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app2.asm">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app3.asm">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app4.asm">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AVROS.asm">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clock.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="kernel.asm">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lcd.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="process.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pwm.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="serial.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="stdlib.inc">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\Vs\AvrAssembler.targets" />
+</Project>
